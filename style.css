@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+.container{
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+*/
+.inner{
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .Sedans{
+    background-color: rgb(255, 153, 0);
+    padding: 1.6em;
+}
+.container .SUVs{
+    background-color: rgb(0, 111, 111);
+    padding: 1.6em;
+}
+.container .Luxury{
+    background-color: rgb(37, 73, 73);
+    padding: 1.6em;
+}
