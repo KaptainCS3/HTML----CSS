@@ -6,36 +6,60 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-/*
-.container{
-    width: 60%;
-    height: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2),
-                0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-}
-*/
 .inner{
-    width: 20%;
-    border-radius: 10px;
+    width: 55%;
+    height: 450px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
-.container .Sedans{
-    background-color: rgb(255, 153, 0);
+.div{
     padding: 1.6em;
+    margin: 0;
 }
-.container .SUVs{
-    background-color: rgb(0, 111, 111);
-    padding: 1.6em;
+.img{
+    margin-top: 20px;
 }
-.container .Luxury{
-    background-color: rgb(37, 73, 73);
-    padding: 1.6em;
+.div h1{
+    margin-top: 15px;
+}
+p{
+   margin-top: 15px;
+   color: hsl(0, 0%, 100%);
+   font-size: 15px;
+}
+.Sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.SUVs{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn{
+    margin-top: 0px;
+    border: 2px transparent;
+    border-radius: 20px;
+    width: 55%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.sedan{
+    color:  hsl(31, 77%, 52%);
+}
+.suv{
+   color: hsl(184, 100%, 30%);
+}
+.lux{
+    color: hsl(179, 100%, 25%);
 }
