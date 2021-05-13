@@ -1,2 +1,2 @@
-# HTML && CSS
- fontendmentor challenge
+# HTML $$ CSS
+ fontendmentor
