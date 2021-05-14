@@ -7,30 +7,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .inner{
-    width: 55%;
+    width: 57%;
     height: 450px;
     margin: 20px auto;
     display: flex;
-    flex-direction: row;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .div{
-    padding: 1.6em;
+    padding: 2.3em;
     margin: 0;
 }
 .img{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .div h1{
     margin-top: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
 }
 p{
    margin-top: 15px;
-   color: hsl(0, 0%, 100%);
-   font-size: 15px;
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 13px;
+   font-family: 'Lexend Deca', sans-serif;
+   line-height: 1.8;
 }
 .Sedans{
     background-color: hsl(31, 77%, 52%);
@@ -47,7 +50,7 @@ p{
     border-bottom-right-radius: 10px;
 }
 .btn{
-    margin-top: 0px;
+    margin-top: 80px;
     border: 2px transparent;
     border-radius: 20px;
     width: 55%;
